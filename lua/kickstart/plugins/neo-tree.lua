@@ -15,7 +15,7 @@ return {
   },
   opts = {
     filesystem = {
-      follow_current_file = true,
+      follow_current_file = { enable = true },
       window = {
         mappings = {
           ['\\'] = 'close_window',
